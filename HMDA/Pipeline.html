@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Encompass</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="javascript.js"></script>
+  <link rel="javascript" href="javascript.js">
+  <link rel="stylesheet" href="Pipeline.css">
+</head>
+<body>
+  <div class="navbar1">
+    <a href="#">Encompass</a>
+    <a href="#">View</a>
+    <a href="#">Home</a>
+    <a href="#">Help</a>
+  </div>
+
+  <div class="navbar2">
+    <div class="subnav2">
+      <div class="subnav-content2">
+        <a href="#">Home</a>
+        <a href="#" class="active" style="border-style: inset;">Pipeline</a>
+        <!-- Loan option is highlighted using active class -->
+        <a href="#">Loan</a>
+        <a href="#">Trades</a>
+        <a href="#">Contacts</a>
+        <a href="#">Dashboard</a>
+        <a href="#">Reports</a>
+      </div>
+    </div>
+  </div>
+  
+<table>
+  <td> 
+    <div class="back">
+    <strong>Pipeline View</strong> 
+      <select >
+    <option>Super Administrator- Default view</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    </select>
+
+  <button ><i class="fa fa-save"></i></button>
+  <button ><i class="fa fa-undo"></i></button>
+  <button ><i class="fa fa-edit"></i></button>
+<label class="loanmailbox">Loan Mailbox</label> 
+</div></td>
+
+<tr>
+ <td><div> Loan Folder
+
+  <select >
+    <option>14 folder are selected</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    <option>Micbookpro-selected</option>
+    </select>
+   
+    View
+    <select >
+      <option>All loans</option>
+      <option>Micbookpro-selected</option>
+      <option>Micbookpro-selected</option>
+      <option>Micbookpro-selected</option>
+      <option>Micbookpro-selected</option>
+      </select>
+
+      Company
+      <select >
+        <option>internal Organization</option>
+        <option>Micbookpro-selected</option>
+        <option>Micbookpro-selected</option>
+        <option>Micbookpro-selected</option>
+        <option>Micbookpro-selected</option>
+        </select>
+             
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+
+          Global Search
+            <input type="checkbox" checked id="checkbox" />
+            <label for="checkbox"></label>
+
+            on
+            <input type="checkbox"/>
+
+            Off
+            <input type="checkbox"/>
+      </div>      
+ </td>
+</tr> 
+</table>
+
+
+<table style="background-color: rgb(253, 248, 248);">
+  <td> 
+    <div class="filter">
+      Filter:Loan number contains "21006001070"
+      <td> 
+        <button type="button" class="eSign-Packages">
+          eSign Packages
+          </button>
+       <button type="button" class="Loan Delivery Status">
+        Loan Delivery Status
+            </button>
+            <button type="button" class="Notify Users">
+              Notify Users
+              </button>
+              <button type="button" class="Advanced Search">
+                Advanced Search
+                </button>
+                <button type="button" class="Clear">
+                  Clear
+        </button>
+      </td>
+</div>
+</td>
+</table>
+
+<table>
+  <td> 
+    <div class="dropdown">
+      <span class="Backwordbtn"><i class="glyphicon glyphicon-step-backward"></i></span>
+      <span  class="left"><i class="glyphicon glyphicon-triangle-left"></i></span>
+        <select >
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+        of 1
+        <span  class="right"><i class="glyphicon glyphicon-triangle-right"></i></span>
+    <span class="Forwordbtn"><i class="glyphicon glyphicon-step-forward"></i></span>
+          
+    <button class="Editbtn"><i class="glyphicon glyphicon-edit"></i> |</button>
+    <button class="Removebtn"><i class="glyphicon glyphicon-floppy-remove"></i></button>
+    <button class="Refreshbtn"><i class="fa fa-refresh"></i></button>
+    <button class="Copyhbtn"><i class="glyphicon glyphicon-copy"></i></button>
+    <button class="Closebtn"><i class="glyphicon glyphicon-remove"></i></button>
+    <button class="Printbtn"><i class="fa fa-print"></i> </button> </td> 
+    
+    <td> 
+      <button type="button" class="Movebtn">
+           Move to Folder
+        </button>
+     <button type="button" class="transferbtn">
+             Transfer
+          </button>
+        </td>
+      </div>
+</td>
+</table>
+<input type="text" id="search" onkeyup="myFunction()" placeholder="Search For Loan Number..">
+
+<table id="myTable">
+  <tr class="header">
+    <th>Alerts</th>
+    <th>Mess Linked</th>
+    <th>Loan Number</th>
+    <th>Borrower Name</th>
+    <th>Loan Amount</th>
+    <th>Loan Office</th>
+    <th>Loan Processor</th>
+    <th>Current Loan Team Member</th>
+    <th>Last Finished Milestone</th>
+    <th>Next Expected Milestone</th>
+  </tr>
+  
+  <tr>
+    <td>=</td>
+    <td>=</td>
+    <td><button>2106001070</button></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td> <a href="LoanServices.html">2106001070</td></a>
+    <td>&#129333;MERS AGAIN</td>
+    <td>$200,000.00</td>
+    <td>&#129333;Office User</td>
+    <td>BM Brock Huffaker</td>
+    <td>&#129333;Office User</td>
+    <td>&#128209;Started</td>
+    <td>&#128210;07/02/2022</td>
+    </td>
+  </tr>
+  <tr>
+    <td>=</td>
+    <td>=</td>
+    <td><button>2106001072</button></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>2106001072</td>
+    <td>&#129333;Andy America</td>
+    <td>$200,000.00</td>
+    <td>&#129333;Office User</td>
+    <td>BM Brock Huffaker</td>
+    <td>&#129333;Office User</td>
+    <td>&#128209;Started</td>
+    <td>&#128210;07/02/2022</td>
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+</body>
+</html>
+

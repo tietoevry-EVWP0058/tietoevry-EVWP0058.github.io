@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="LoanServices.css">
+<title>Encompass</title>
+</head>
+<body>
+
+<!-- 1st part- navbar  -->
+<div class="navbar1">
+  <a href="#" >Encompass</a>
+  <a href="#">View</a>
+  <a href="#">Loan</a>
+  <a href="#">Forms</a>
+  <a href="#">Verifs</a>
+  <a href="#">Tools</a>
+  <a href="#">Services</a>
+  <a href="#">Help</a>
+</div>
+
+<!-- 2nd part- Menu bar -->
+<div class="navbar2">
+  <div class="subnav2">
+    <div class="subnav-content2">
+      <a href="#">Home</a>
+      <a href="#">Pipeline</a>
+      <!-- Loan option is highlighted using active class -->
+      <a href="#" class="active" style="border-style: inset;">Loan</a>
+      <a href="#">Trades</a>
+      <a href="#">Contacts</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Reports</a>
+      <a href="#">Intranet</a>
+      
+
+    </div>
+  </div>
+</div>
+
+<!-- 3rd part- input field to enter borrower's name -->
+<div class="TopHeader" style="margin-top: 26px;padding: 3px;">
+  <div class="InputBox">
+    <!-- Borrower Icon -->
+    <img src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png" style="height: 15px;width: 15px;margin-left:2px;margin-right: 5px;">
+    <a style="padding-right: 10px;color: black;font-size: 10px;margin-top: 5px;text-decoration: none;">Borrowers</a>
+     <!-- Input Field to enter borrower's name  -->
+    <input type="text" id="fname" name="fname"style="background-color: white;border-color:transparent;font-size: 10px;width:200px;" value="MERS AGAIN">
+    <!-- Icon -->
+    <img src="https://cdn-icons-png.flaticon.com/512/6451/6451727.png" style="height: 15px;width: 15px;margin-left:2px;">
+    <!-- Different icons present in right hand side(RHS)  -->
+    <div class="Input-right">
+      <img src="https://cdn-icons-png.flaticon.com/512/148/148953.png" style="height: 15px;width: 15px;margin-left:2px;">
+      <a style="padding-right: 10px;color: rgb(255, 247, 9);font-size:small;text-decoration: none;">eFolder</a>
+      <button onclick="myFunction()" style="background-color: transparent;border: none;"><img src="https://cdn-icons-png.flaticon.com/512/3067/3067325.png" style="height: 15px;width: 15px;margin-left:2px;"></button>
+      <button onclick="window.open('form_1040.pdf')" style="background-color: transparent;border: none;"><img src="https://cdn-icons-png.flaticon.com/512/1497/1497542.png" style="height: 15px;width: 15px;margin-left:2px;"></button>
+      <!-- <img src="https://cdn-icons-png.flaticon.com/512/1497/1497542.png" style="height: 15px;width: 15px;margin-left:2px;"> -->
+      <img src="https://cdn-icons-png.flaticon.com/512/3161/3161830.png" style="height: 15px;width: 15px;margin-left:2px;margin-right: 5px;">
+    </div>
+
+  </div>
+</div>
+
+<!-- 4th part - Icons and different details -->
+
+<div class="navbar3" style="margin-top: 22px;">
+<!-- First Row icons and Details -->
+  <div class="subnav3">
+    <div class="subnav-content3">
+      <img src="https://cdn-icons-png.flaticon.com/512/619/619153.png"
+        style="height: 15px;width: 15px;margin-left:2px;float: left;margin-top: 6px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/4060/4060779.png"
+        style="height: 15px;width: 15px;margin-left:250px;float: left;margin-top: 6px;">
+      <a href="#" style="font-size: 10px;margin-right: 95px;">Loan #:2106001070</a>
+      <a href="#" class="active"
+        style="font-size: 10px;margin-right: 100px;background-color: transparent;">LTV:88.889/88.889</a>
+      <a href="#" style="font-size: 10px;margin-right: 90px;">Rate:4.500%</a>
+      <a href="#" style="font-size: 10px;margin-right: 80px;">Est Closing Date:#</a>
+     
+    </div>
+  </div>
+</div>
+
+<div class="navbar3" style="margin-top: 46px;">
+<!-- Second Row icons and Details -->
+  <div class="subnav3">
+    <div class="subnav-content3">
+      <a href="#" style="font-size: 10px;margin-right: 62px;margin-left: 282px;">Loan Amount:$200,000.00</a>
+      <a href="#" style="font-size: 10px;margin-right: 100px;">DTI:13.654/13.654 </a>
+      <img src="https://cdn-icons-png.flaticon.com/512/473/473704.png" style="height: 15px;width: 15px;margin-left:1px;float: left;margin-top: 6px;">
+      <a href="#" style="font-size: 10px;margin-right: 25px;margin-left: 0px;margin-right: 83px;">Not Locked</a>
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" style="height: 15px;width: 15px;float: left;margin-top: 6px;margin-right: 5px;">
+      <a href="#" style="font-size: 10px;margin-right: 35px;border-style:outset;background-color: #fbfbfb;border-width: 1px;padding:2px;width: 150px;height: 20px;">BM Brock Huffaker &nbsp;&nbsp;<img src="https://cdn-icons-png.flaticon.com/512/152/152415.png" style="height: 10px;width: 10px;float: right;margin-top: 4px;"></a>
+
+    </div>
+  </div>
+</div>
+
+<!-- 1225px -->
+<div class="row" style="width:1200px;height:195px;">
+
+      <div class="column left" style="background-color:transparent;width: 280px;">
+        <!-- 5th part -Alert and messages -->
+          <div class="row" style="height:210px;margin-left: 10px;padding: 12px;margin-top: 12px;">
+            
+            <div class="navbar4" >
+              <div class="subnav4">
+                <div class="subnav-content4" style="width:270px;">
+                  <!-- Loan option is highlighted using active class -->
+                  <a href="#" class="active" style="border-style: inset;width: 130px;height: 30px;">Alerts & Messages</a>
+                  <a href="#">Log</a>
+                  <!-- Icons in Menu bar  -->
+                  <div class="top-right">
+                    <img src="https://cdn-icons-png.flaticon.com/512/9890/9890181.png" style="height: 20px;width: 20px;margin-left:2px;float:left;margin-top:5px;margin-left: 6px;">
+                  <!-- Two buttons field in Menu Bar -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="list_container1" >
+            <div class="table_field" style="margin-top:30px;margin-left: 0px;">
+              <table style="width:260px;background-color: transparent;">
+                <tr style="background-color: white;" >
+                  <th style="margin-left: 10px;border: 1px solid #dddddd;color: black;font-weight: bolder;" ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPN6O_gy2Ie2DVFMpk_-AauVEZ1V0043kQCbVInkY&s" style="height: 13px;width: 13px;margin-right:5px;float:left;">File Started</th>
+                  <th style="margin-left: 10px;border: 1px solid #dddddd;color:black;font-weight: bolder;">10/21/17</th>
+                  
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" > <img src="https://thumbs.dreamstime.com/b/abstract-cream-background-beige-color-seamless-square-texture-tile-ready-high-quality-extremely-resolution-160970067.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">Application</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://previews.123rf.com/images/yamabikay/yamabikay1705/yamabikay170500123/78105866-gray-beige-cream-color-seamless-square-background-tile-ready-high-quality-texture-in-extremely.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">UW Submission</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://previews.123rf.com/images/yamabikay/yamabikay1705/yamabikay170500123/78105866-gray-beige-cream-color-seamless-square-background-tile-ready-high-quality-texture-in-extremely.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">Cond. Approval</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://previews.123rf.com/images/yamabikay/yamabikay1705/yamabikay170500123/78105866-gray-beige-cream-color-seamless-square-background-tile-ready-high-quality-texture-in-extremely.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">Resubmitted</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://www.labellab.com/img/lg/L/Fluorescent-Green-Color-Coded-Label-LSQ-400-FG.gif" style="height: 13px;width: 13px;margin-right:5px;float:left;">Approval</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://media.istockphoto.com/id/1084976252/photo/green-and-blue-blurred-motion-abstract-background.jpg?s=612x612&w=0&k=20&c=L1itmSs3gKPRUFCAyif6HbBnSuzuQqOH0TjY6WpLysQ=" style="height: 13px;width: 13px;margin-right:5px;float:left;">Prep for Closing</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://thumbs.dreamstime.com/b/light-green-canvas-texture-seamless-square-texture-tile-ready-light-green-canvas-texture-seamless-square-background-tile-ready-129257703.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">Ready for Docs</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/768px-Solid_blue.svg.png" style="height: 13px;width: 13px;margin-right:5px;float:left;">Initial CD Audit</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://thumbs.dreamstime.com/b/light-green-canvas-texture-seamless-square-texture-tile-ready-light-green-canvas-texture-seamless-square-background-tile-ready-129257703.jpg" style="height: 13px;width: 13px;margin-right:5px;float:left;">Closing</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAmVBMVEWBAH+3mLeAAnWAAX1+A36HAIN+AYeEAH6BAXmCAIC/n72BAIh8An6CA3h/AIqBAIPFp8XQsdHautfQss3Anb/YutpxAHt/AGqDAIaGAHu5k7l5A3+FAGx7AoXj/eX64/fr0OTixeTgyd3Vut3dtNPV4uXVsdlzAGx0AHS4h7h/AG+FAXTOps54Aou4kr2HAG5uCYq3jLHJzNZ3D0EWAAADH0lEQVR4nO3da2/aMBiGYRMH4pBjG06J6dqtZxhl3f//cUsgpTBFlNIi9Lx5ri+ooop9Y/ubBerH9fXNzc9fl6Usyy7SWn/LYDDoHG/Q/0h6kIuPZdnlluFweHt7d68eHkePo9GTu6ZrasVb636Rt0c1jK/0AdzPCo0JR+Nn9RD1TBLrpGRtsnl3W5KsXj49ROPDmn1+/o0DJdus1mVhobJZONPWcaKV+sU0cY7U/LQd0QkYM5+bp2mhfs+DfBJ4dXewFjfpHavxabuCb7GzhEk8mcSL6EWl49BxE8esj0V9AGv+2iGnZI+3xzSqR9odt4ned5ob+Xnu22WhUieJVGDq7s2sdDVq/a/1Vjq2cO80VkN98SPc2F1DN8+VLXdpqt0oUHr3IwX13/bQPSfsdlSqdFV47smdgC4L3VVhuYZafKH8NZRfyF0K6b0wNHELCiXiGuJ7K+y3pFDyLm3JGvreuadzAptCj4WoWIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X42lM46LpRT/RNhbLQkV3YYSEsFuJjIT4W4mMhPhbiYyE+FuJjIT4W4mMhPhbiYyE+FuJjIT4W4mMhPhbiYyE+FuJ7vzEURoGSfOtL/r02FuJiIT4W4mMhPhbiYyE+FuJjIT4W4mMhPhbiYyE+FuJjIT4W4mMhvhYVyv/GcuWawJd8U6Ff/QqL7EJP/Bp2xRd60ndpqlQuvFC7kezfKGnDL1q1olD03cSWrKH8Qu5SSCzEx3OIr2WF3KWQWIiP5xAfC/HxHOJrWSF3KSQW4uM5xMdCfDyH+FpUqKXv0gu3LPRYiIiF+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIivPYWZa6PES/xzz+f7vRcmwgsvW1AofZe2YQ1ZiIqF+FiIj4X4NoWh5MKwLBxaa2LfLf+WxiR6ZqOy0Jj5JM/PPZ0TSOKJWnSLslBXhT159MRzrvKyMKy+3VM58sz0fBwuO+p2ZJ8W1rry2MVV+Md21N10PI2W0648UTdf2vmrun8uipei6AhUVb3+/QdMNJCi0XjVlgAAAABJRU5ErkJggg==" style="height: 13px;width: 13px;margin-right:5px;float:left;">Funding</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+                <tr style="background-color: white;" >
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color: black;" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/768px-Solid_blue.svg.png" style="height: 13px;width: 13px;margin-right:5px;float:left;">PrePurch Audited</td>
+                  <td style="margin-left: 10px;border: 1px solid #dddddd;color:black;"></td>
+                </tr>
+
+              </table>
+            </div>
+            </div>
+          </div>
+          <!--6th part- Request for Transcript of Tax -->
+          <div class="row" style="margin-left: 10px;height:110px;padding: 12px;">
+            
+            <div class="navbar4" >
+              <div class="subnav4">
+                <div class="subnav-content4" style="width:287px;">
+                  <!-- Loan option is highlighted using active class -->
+                  <a href="LoanForm.html" >Forms</a>
+                  <a href="#">Tools</a>
+                  <a href="#" class="active" style="border-style: inset;">Services</a>
+                  <!-- Icons in Menu bar  -->
+                </div>
+              </div>
+            </div>
+
+            <div class="list_container2" style="margin-top: 20px;font-size: 12px;padding-top: 15px;">
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Order Credit Report</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Access Lenders</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Search Product and Pricing</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Request Underwriting</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Order Appraisal</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Order Flood Certification</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Order Title & Closing</p>
+              <p class="options" style="margin-bottom: 2px;"><img src="https://cdn-icons-png.flaticon.com/512/724/724820.png" style="height: 10px;width: 10px;float: left;margin-right: 5px;margin-top: 2px;">Order Doc Preparation</p>
+            </div>
+            <p  style=" border: 2px solid rgb(221, 223, 225);background-color: #e8e6e6;margin-left: 1px;height: 25px;font-size: smaller;"><input type="checkbox" >
+              <label  style="margin-left: 2px;"> Show in Alpha Order</label></p>
+            </div>
+
+        </div>
+
+        <div class="column right" style="background-color:#dfebfc;margin-left: 22px;width: 890px;">
+          <div class="TopHeader1" style="margin-top: 24px;">
+            <div class="InputBox1" style="margin-bottom: 0px;margin-left:293px;background-color: #db8b41;width:1000px;" >
+              <!-- 7th part - Table heading ,icons and buttons -->
+            <a style="padding-right: 10px;color: black;font-size:10px;text-decoration: none;margin-left: 0px;">UW Submission Worksheet </a>
+            </div>
+          <div class="navbar5" style="margin-top: 24px ;">
+              <!-- First Row icons and Details -->
+                <div class="subnav5" >
+                  <div class="subnav-content5" style="margin-left:293px;width: 1000px;">
+                    <a href="#" style="font-size: 10px;margin-right: 5px;">Loan Officer<input type="text" id="fname" name="fname" value="Officer User (Officer)" style="margin-left: 25px;"></a>
+                    <img src="https://cdn-icons-png.flaticon.com/512/954/954591.png" style="height: 15px;width: 15px;float: left;margin-top: 6px;">
+                    <a href="#" class="active"style="font-size: 10px;margin-right: 0px;background-color: transparent;margin-left:20px;">Days to Finish <input type="text"  value="-289" style="margin-left: 10px;width: 40px;"><input type="text"  value="07/02/2021 04:11 PM" style="margin-left: 10px;width: 110px;"></a>
+                    <a href="#" style="font-size: 10px;margin-right: 90px;color:blue;">Change Milestone Date</a>
+                  </div>
+                </div>
+              </div>
+              <div class="navbar5" style="margin-top: 48px;">
+                <!-- First Row icons and Details -->
+                  <div class="subnav5">
+                    <div class="subnav-content5" style="margin-left:293px;width: 1000px;">
+                      <a href="#" style="font-size: 10px;margin-right: 5px;">Loan Processor<input type="text" id="fname" name="fname"  style="margin-left: 10px;"></a>
+                    <img src="https://cdn-icons-png.flaticon.com/512/954/954591.png" style="height: 15px;width: 15px;float: left;margin-top: 6px;">
+                      <a href="#" style="font-size: 10px;margin-left: 20px;"><input type="checkbox" ><label style="margin-left: 5px;font-weight: lighter;">Finished</label></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="navbar5" style="margin-top: 72px;">
+                  <!-- First Row icons and Details -->
+                    <div class="subnav5">
+                      <div class="subnav-content5" style="margin-left:293px;width: 1000px;">
+                        <a href="#" style="font-size: 10px;margin-right: 5px;">Underwriter<input type="text" id="fname" name="fname"  style="margin-left: 28px;"></a>
+                        <img src="https://cdn-icons-png.flaticon.com/512/954/954591.png" style="height: 15px;width: 15px;float: left;margin-top: 6px;">
+                      </div>
+                    </div>
+                  </div>
+
+          </div>
+
+          <div class="row" style="margin-left: 6px;margin-top: 29px;width: 1000px;">
+            <div class="column" style="background-color:#faf9f9;width: 490px;height:190px;margin-right: 9px;border: 2px  rgb(227, 225, 225) ridge ; border-bottom: hidden;">
+              <div class="heading" >
+                <a href="#" style="font-weight: bolder;">Documents</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;margin-top: 3px;">eFolder</a>
+              </div>
+              <div  style="background-color: white;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Appraisal<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><label class="container" style="margin-left: 25px;margin-top: 5px;">Homeowner's Insurance Policy<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Tax Bills - Country/City/Township/School<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><label class="container" style="margin-left: 25px;margin-top: 5px;">Completed and Executed 1003<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><img src="https://cdn-icons-png.flaticon.com/512/7611/7611087.png" style="height: 12px;width: 12px;float: left;margin-left: 4px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Address Cert 911<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);height:13px;margin-top: 5px;"></div>
+              <div  style="background-color: white;height:13px;margin-top: 5px;"></div>
+              <div  style="background-color: rgb(232, 232, 232);height:13px;margin-top: 5px;"></div>
+              <div  style="background-color: white;height:13px;margin-top: 5px;"></div>
+            </div>
+          <div class="column" style="background-color:#faf9f9;width: 490px;height:190px;border: 2px  rgb(227, 225, 225) ridge ; border-bottom: hidden;">
+              <div class="heading" >
+                <a href="#" style="font-weight: bolder;">Tasks</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;margin-top: 3px;">Task List</a>
+              </div>
+              <div  style="background-color: white;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Check Credit Report for Red Flags and Discrepancies<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><img src="https://cdn-icons-png.flaticon.com/512/3358/3358346.png" style="height: 7px;width: 7px;float: left;margin-left: 6px;margin-top: 3px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Obtain Flood Cert and Life of loan coverage<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><img src="https://cdn-icons-png.flaticon.com/512/3358/3358346.png" style="height: 7px;width: 7px;float: left;margin-left: 6px;margin-top: 3px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Obtain income/Asset docs perDU/AUS findings<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><img src="https://cdn-icons-png.flaticon.com/512/3358/3358346.png" style="height: 7px;width: 7px;float: left;margin-left: 6px;margin-top: 3px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Order Appraisal<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Review UCDP Findings<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><label class="container" style="margin-left: 25px;margin-top: 5px;">Title Ordered<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><label class="container" style="margin-left: 25px;margin-top: 5px;">USPS Address Verification<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: rgb(232, 232, 232);"><img src="https://cdn-icons-png.flaticon.com/512/3358/3358346.png" style="height: 7px;width: 7px;float: left;margin-left: 6px;margin-top: 3px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Welcome call/email to Borrower(s)<input type="checkbox" ><span class="checkmark"></span></label></div>
+              <div  style="background-color: white;"><img src="https://cdn-icons-png.flaticon.com/512/3358/3358346.png" style="height: 7px;width: 7px;float: left;margin-left: 6px;margin-top: 3px;"><label class="container" style="margin-left: 25px;margin-top: 5px;">Add Milestone Comments<input type="checkbox" ><span class="checkmark"></span></label></div>
+            </div>
+          </div>
+
+          <div class="row" style="margin-left: 6px;margin-top: 0px;width: 1000px;">
+            <div class="column" style="background-color:#faf9f9;width: 490px;height:180px;margin-right: 9px;border: 2px  rgb(227, 225, 225) ridge ; border-top: hidden;">
+              <div class="heading" >
+                <a href="#" style="font-weight: bolder;">Required Field</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;;margin-top: 3px;">Go to Fields</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;;margin-top: 3px;">Fields Summary</a>
+              </div>
+              <div>
+                <label for="name" style="margin-left: 17px; margin-bottom: 5px;font-weight: lighter ;margin-right: 110px;margin-top: 10px;font-size: 10px;" >Credit Date</label><input type="text" id="name" style="width: 250px;height:20px;" />
+                <label for="name" style="margin-left: 17px; margin-bottom: 5px;font-weight: lighter ;font-size: 10px;margin-right: 135px;" >Credit</label><input type="text" id="name" style="width: 250px;height:20px;" />
+                <label for="name" style="margin-left: 17px; margin-bottom: 5px;font-weight: lighter ;font-size: 10px;margin-right: 104px;" >Income Date</label><input type="text" id="name" style="width: 250px;height:20px;" />
+                <label for="name" style="margin-left: 17px; margin-bottom: 5px;font-weight: lighter ;font-size: 10px;margin-right: 128px;" >Income</label><input type="text" id="name" style="width: 250px;height:20px;" />
+                <label for="name" style="margin-left: 17px; margin-bottom: 5px;font-weight: lighter ;font-size: 10px;margin-right: 20px;" >TL Intl TL Disclosure Rcvd Date</label><input type="text" id="name" style="width: 250px;height:20px;" />
+              </div>
+           
+            </div>
+            <div class="column" style="background-color:#faf9f9;width: 490px;height:180px; border: 2px  rgb(227, 225, 225) ridge ; border-top: hidden;">
+              <div class="heading" >
+                <a href="#" style="font-weight: bolder;">Milestone Comments</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;margin-top: 3px;">Date Stamp</a>
+                <a href="#" style="padding: 2px 2px 2px 5px;border-color: rgb(213, 207, 207);box-shadow: #B0B0B0;margin-right: 3px;border:1px solid black;float:right;background-color: #e1e0e0;margin-top: 3px;">Show All</a>
+              </div>
+              <div class="empty">
+
+              </div>
+            </div>
+          </div>
+
+          
+
+      </div>
+
+    </div>
+
+</div>
+ 
+
+
+
+<!-- Save functionlity is working based on script code -->
+      <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = " <td>Borrower</td><td>1040</td><td>2017,2016,2015</td><td>Record of Account</td><td></td>";
+        }
+       
+      </script>
+</body>
+</html>

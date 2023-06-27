@@ -1,0 +1,176 @@
+
+  .btnicon{
+    background-color: white;
+  }
+
+  .btn  {
+    background-color: rgb(232, 226, 226);
+    color: black;
+    
+  }
+@media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  table.ex1 {
+    empty-cells: hide;
+    background-color: green;
+  }
+
+  table {
+    width: 100%;
+    border: 1px solid;
+  }
+  
+  table.ex2 {
+    empty-cells: show;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .back
+  {
+    background-color:rgb(177, 201, 212);
+  }
+.loanmailbox
+{
+  float: right;
+  color:yellow;
+}
+.filter
+  {
+    background-color: #f1eded;
+    font-size: 14.2px;
+  }
+  .eSign-Packages{
+    margin-left: 370px;
+  }
+  .dropdown
+  {
+    background-color: rgb(177, 201, 212);
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: rgb(175, 142, 142);
+  }
+
+  .Backwordbtn{
+    background-color: rgb(177, 201, 212);
+    color: rgb(100, 122, 132);
+    font-size: 18px;
+    
+    
+  }  
+  .Forwordbtn {
+    background-color: rgb(177, 201, 212);
+    color: rgb(100, 122, 132);
+    font-size: 18px;
+      
+  }
+ .left{
+    background-color: rgb(177, 201, 212);
+    color: rgb(100, 122, 132);
+ }
+
+ .right{
+    background-color: rgb(177, 201, 212);
+    color: rgb(100, 122, 132);
+ }
+  .Editbtn{
+    float:right;
+    font-size: 14px;
+    color: rgb(101, 164, 194);
+  }
+
+  .Refreshbtn {
+    float:right;
+    font-size: 14px;
+    color: rgb(53, 197, 96);
+    font-size: 14px;
+  }
+  .Copyhbtn{
+    float:right;
+    color: rgb(74, 177, 195);
+    font-size: 14px;
+  }
+  
+  .Closebtn {
+    float:right;
+    color: rgb(28, 26, 26);
+    font-size: 14px;
+  }
+  .Removebtn {
+      float:right;
+      color: rgb(28, 174, 108);
+      font-size: 14px;
+  }
+  .Printbtn {
+    float:right;
+    margin-left: 700px;
+    color: blue;
+
+  }
+  .navbar1 {
+    overflow: hidden;
+    background-color: #cbc9c9; 
+  }
+  .navbar1 a {
+    float: left;
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .navbar2 {
+    overflow: hidden;
+    background-color: #cecaca; 
+    width:100%;
+  
+  }
+  
+  .navbar2 a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .subnav2 {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content2 {
+    position: absolute;
+    left: 0;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content2 a {
+    float: left;
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    border-style: outset;
+    border-color: rgb(224, 223, 223);
+  }
+  .subnav-content2 a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .subnav2:hover .subnav-content2 {
+    display: block;
+  }
+  
+  

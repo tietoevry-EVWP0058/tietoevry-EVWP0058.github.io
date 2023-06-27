@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Encompass</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/Backgroundimage.jpeg");
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  margin: 600px;
+  margin-top: 150px;
+  width: 350px;
+  padding: 15px;
+  background-color: white;
+border-radius: 0px 40px 40px 0px;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color:rgb(2, 2, 69);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.SSObtm{
+color :rgb(2, 2, 69);
+width: 100%;
+opacity: 0.9;
+ border-color: black;
+ height: 40px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+/* Thick blue border */
+hr {
+  border: 2px solid skyblue;
+}
+
+
+
+/*logo*/
+.img{
+  float: left;
+  margin: 275px;
+  margin-top: 150px;
+  height: 425px; 
+  width:350px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+</style>
+</head>
+<body>
+<div class="bg-img">
+<center>
+  <img  src="images/Encompass.png" alt="Encompass2"class="img"  >
+  <form action="/action_page.php" class="container">
+    <h1 align="left">BE11207839</h1>
+<hr class="hr">
+    <input type="text" placeholder="User ID" name="email" required>
+    <input type="password" placeholder="Enter Password" name="password"  required >
+        <label>
+    <input type="checkbox" id="check"> <span style=" margin-right: 51%;">Remember me</span>
+    <button type="submit" class="btn">Login</button>
+<P style="text-align:center">OR</p>
+<button onclick="window.location.href = 'Landing.html'" type="submit" class="SSObtm">Login via Single Sign On(SSO)</button>
+  </form>
+</center>
+</div>
+</body>
+</html>

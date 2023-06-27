@@ -1,0 +1,423 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Css for first navbar */
+  .navbar1 {
+    overflow: hidden;
+    background-color: #cecaca; 
+    width:100%;
+  
+  }
+  .navbar1 a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    text-decoration: none;
+    
+  }
+  .navbar2 {
+    overflow: hidden;
+    background-color: #cecaca; 
+    width:100%;
+  
+  }
+  
+  .navbar2 a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .active {
+    background-color: #fbfbfb;
+  }
+  .subnav2 {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content2 {
+    position: absolute;
+    left: 0;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content2 a {
+    float: left;
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    border-style: outset;
+    border-color: rgb(224, 223, 223);
+  }
+  .subnav-content2 a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .subnav2:hover .subnav-content2 {
+    display: block;
+  }
+  
+  
+  .navbar3 a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .subnav3 {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content3 {
+   position: absolute;
+   left: 0;
+   background-color: rgb(228, 226, 226);
+   width: 100%;
+   z-index: 1;
+  }
+  .subnav-content3 a {
+   float: left;
+   color: rgb(23, 22, 22);
+   text-decoration: none;
+   border-style: none;
+  }
+  .subnav-content3 a:hover {
+   background-color:transparent;
+   color: black;
+  }
+  
+  
+  .navbar4 a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .subnav4 {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content4 {
+    position: absolute;
+    left: 0;
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    z-index: 1;
+    height: 30px;
+  }
+  .subnav-content4 a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  .subnav-content4 a {
+    float: left;
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    border-color: transparent;
+    border-color: rgb(224, 223, 223);
+    border-style: outset;
+   }
+  
+  .navbar5 a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  .subnav5 {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content5 {
+   position: absolute;
+   left: 0;
+   background-color: rgb(228, 226, 226);
+   margin-left: 23.5%;
+   width: 76%;
+   z-index: 1;
+  }
+  .subnav-content5 a {
+   float: left;
+   color: rgb(23, 22, 22);
+   text-decoration: none;
+  
+  }
+  .subnav-content5 a:hover {
+   background-color: #eee;
+   color: black;
+  }
+  
+  
+  .TopHeader{
+    overflow: hidden;
+  }
+  .InputBox{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #9ebfeb; 
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    
+  }
+  .left-content
+  {
+    text-align: right;
+     z-index: 1;
+     text-decoration: none;
+     width: 100%;
+     
+  }
+  .button{
+    position: absolute;
+   
+  }
+  .top-right {
+    float: right;
+  }
+  .Input-right{
+    float: right;
+  }
+  
+  .search input[type=text] {
+    background-color: #B0B0B0;
+  
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .btn {
+    
+    border: none;
+    color: rgb(24, 11, 11);
+    height:25px;
+    width:220px;
+    padding: 12px 16px;
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    padding-bottom: 2px;
+    background-color: #d5d2d2;
+    padding: 6px;
+    margin-top: 2px;
+    margin-right: 5px;
+    padding-left: 10px;
+    border-color: transparent;
+  }
+  
+  .top-right a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    color: rgb(23, 22, 22);
+   text-decoration: none;
+  
+   background-color: #c6c5c5;
+   padding: 2px 2px 2px 5px;margin-top:3px;
+   border-color: rgb(224, 223, 223);
+   box-shadow: #B0B0B0;
+   margin-right: 3px;
+   border-style: outset;
+  
+  }
+  
+  .TopHeader1{
+    overflow: hidden;
+   
+   
+  }
+  .InputBox1{
+    padding-left: 5px;
+    position: absolute;
+    margin-left: 23.5%;
+    left: 0;
+    width: 76%;
+    /* z-index: 1; */
+    background-color: #d3e2f4;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    border-color: rgb(224, 223, 223);
+    box-shadow: #B0B0B0;
+  }
+  
+  
+  .table_field{
+    margin-left: 10%;
+
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    width: 1000px;
+    font-size: 10px;
+    
+    
+    
+  } 
+  
+  td, th {
+    border: 1px transparent #dddddd;
+    text-align: left;
+    padding: 5px;
+    height:15px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  } 
+  
+  /* Create three unequal columns that floats next to each other */
+   .column {
+    float: left;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  .empty{
+    overflow-y: scroll;
+    height: 150px;
+  }
+  #bodyarea-div { 
+    width:60%; 
+    min-height:100px; 
+    border: #7e7c7c;
+    float:left;
+    background-color: whitesmoke; 
+  } 
+  .clearfix::after 
+  { 
+  content:""; 
+  display: block; 
+  clear:both; 
+  } 
+  .list_container {
+      direction: ltr;
+      overflow:auto;
+      height: 230px;
+      width: 280px;
+  } 
+  .item_direction  a{
+      color: black;
+      text-decoration: none;
+      font-size: 12px;
+    }
+  .list_container1 {
+      direction: ltr;
+      overflow:auto;
+      height: 200px;
+      width: 280px;
+    }
+  .list_container2 {
+      direction: ltr;
+      overflow:auto;
+      height: 210px;
+      width: 280px;
+  }
+   .item_direction {
+      direction:ltr;
+    }
+  .heading {
+    overflow: hidden;
+    background-color: goldenrod;
+  }
+  .heading a {
+    float: left;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  p.options {
+    border: 2px solid rgb(188, 216, 245);
+    padding: 5px;
+    color: rgb(0, 119, 255);
+    
+  }
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #eee;
+    border:1px solid blue;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 8px;
+    border: solid rgb(34, 32, 32);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .dropdown{
+    background-color: rgb(248, 224, 165);
+    width: 486px;
+    
+  }
+  
