@@ -24,12 +24,16 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <br /><br />
-        <div class="btn btn-primary">File Upload</div>
+        <div class="btn btn-success">File Upload</div>
+
+        <a href="login.html">
+          <div class="btn btn-success" style="float: right;"> Logout</div>
+        </a>
 
         <div class="login-form">
           <br /><br />
           <div class="upload-btn-wrapper">
-            <button class="btn btn-primary">Select File</button>
+            <button class="btn btn-success">Select File</button>
             <input type="file" name="myfile" multiple id="file-input" />
           </div>
           <br /><br />
@@ -105,7 +109,7 @@
         document.getElementById("no-files").style.display = "none";
         document.getElementById("files-names").style.display = "block";
       }
-      
+
       // Please use "dt" to get all files and other operations. Below  
       console.log("items : ", dt.items); // used to check items
       console.log("files", dt.files); //used  to get files

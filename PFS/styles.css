@@ -6,11 +6,46 @@
     box-sizing: border-box;
 }
 
+.html{
+height: 100%;
+}
+
 body {
     font-family: "Inter", sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+height: 100%:
 }
+  .mt-15{
+    margin-top: 8%;
+  }
+  .login-bg{
+    position: absolute;
+    background: url(bg.png) no-repeat center center;
+    padding: 4.2rem 0 4.2rem ;
+    background-size: cover;
+    height:100%;
+    width:100%;
+  }
+
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
+
+  .card-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
 .btn-primary{
     background: green !important;
     border-radius: 0 !important;
@@ -70,7 +105,7 @@ p{
 .login-form .btn {
     width: 100%;
     /* line-height: 40px; */
-    background-color: rgb(12, 12, 66);
+    background-color: #198754;
     color: white;
     border-radius: 3px;
 }
